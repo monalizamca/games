@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Lexend:wght@100..900&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* .header {
+  background-color: #FFF;
+  height: 80px;
+} 
+
+.App {
+  min-height: 100vh;
+  padding-bottom: 60px; 
+  box-sizing: border-box; 
+}
+*/
+
+
+body {
+background-image:
+linear-gradient(#FFE4B7 0, #FFE4B7 100%),
+linear-gradient(#F6B7FF 0, #F6B7FF 100%),
+linear-gradient(#BAA2F9 0, #BAA2F9 100%),
+linear-gradient(#96AAFF 0, #96AAFF 100%),
+linear-gradient(#95D3FB 0, #95D3FB 100%),
+linear-gradient(#FFB7DF 0, #FFB7DF 100%);
+background-size: 33.50% 50.50%;
+background-position:   top left, top center, top right, bottom left, bottom center, bottom right;
+background-repeat: no-repeat;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 15px 0 0 15px;
+  font-family: 'Delius Unicase';
+  font-size: 20px;
+  color: black;
+  background-color: #F07085;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.cor-titulo {
+  color: #FFF;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  max-width: 90%;
+  min-height: 80vh;
+  margin: 0 auto;
+  background-color: #ffffffdc;
+  padding: 20px; 
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.game-menu {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-tictactoe, .img-memoria {
+  margin-top: 25px;
+  width: 280px;
+  height: 250px;
+  object-fit: cover;
+  border: none;
+  border-radius: 10px;
+}
+
+.menu button {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-family: 'Lexend';
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #B69FFF;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+    background-color: #7758df;  
+}
+
+.menu-game {
+  max-width: 90%;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffffdc;
+  padding: 20px; 
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 10px;
+  min-height: 80vh;
+  position: relative;
+}
+
+.voltar {
+  bottom: 20px;
+  left: 20px;
+  font-family: 'Lexend';
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #B69FFF;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.voltar:hover {
+  background-color: #7758df;
+}
+
+footer {
+  padding: 8px;
+  position: fixed;
+  bottom: 0;
+  font-family: 'Lexend';
+  font-size: 12px;
+  color: #F07085;
+  background-color: #ffffff56;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 10px;
+}
