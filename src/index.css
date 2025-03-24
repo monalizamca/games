@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Lexend:wght@100..900&display=swap');
 
-html, body {
+body {
   height: 100%;
   margin: 0;
+
 }
 
 /* .header {
@@ -17,22 +18,18 @@ html, body {
 }
 */
 
-
-body {
-background-image:
-linear-gradient(#FFE4B7 0, #FFE4B7 100%),
-linear-gradient(#F6B7FF 0, #F6B7FF 100%),
-linear-gradient(#BAA2F9 0, #BAA2F9 100%),
-linear-gradient(#96AAFF 0, #96AAFF 100%),
-linear-gradient(#95D3FB 0, #95D3FB 100%),
-linear-gradient(#FFB7DF 0, #FFB7DF 100%);
-background-size: 33.50% 50.50%;
-background-position:   top left, top center, top right, bottom left, bottom center, bottom right;
-background-repeat: no-repeat;
-}
-
 .App {
   min-height: 100vh;
+  background-image:
+  linear-gradient(#FFE4B7 0, #FFE4B7 100%),
+  linear-gradient(#F6B7FF 0, #F6B7FF 100%),
+  linear-gradient(#BAA2F9 0, #BAA2F9 100%),
+  linear-gradient(#96AAFF 0, #96AAFF 100%),
+  linear-gradient(#95D3FB 0, #95D3FB 100%),
+  linear-gradient(#FFB7DF 0, #FFB7DF 100%);
+  background-size: 33.50% 50.50%;
+  background-position:   top left, top center, top right, bottom left, bottom center, bottom right;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -74,12 +71,14 @@ h1 {
 
 .game-menu {
   display: flex;
-  gap: 50px;
+  flex-wrap: wrap;
+  gap: 0px 30px;;
   justify-content: center;
+  max-width: 90%;
   align-items: center;
 }
 
-.img-tictactoe, .img-memoria {
+.img-tictactoe, .img-memoria, .img-forca {
   margin-top: 25px;
   width: 280px;
   height: 250px;
@@ -140,7 +139,7 @@ h1 {
 
 footer {
   padding: 8px;
-  position: fixed;
+  position: relative;
   bottom: 0;
   font-family: 'Lexend';
   font-size: 12px;

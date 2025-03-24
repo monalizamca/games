@@ -1,13 +1,10 @@
 import React from "react";
 import './JogoDaMemoria.css'
 
+const JogoDaMemoria= () => {
 
-const JogoDaVelha = () => (
-    <div className="Velha">
-        <div className="Velha_board">
-            Teste
-        </div>
-    </div>
-)
-
-export default JogoDaVelha; 
+      <div>JogoDaMemoria</div>
+  
+    }
+  
+  export default JogoDaMemoria
